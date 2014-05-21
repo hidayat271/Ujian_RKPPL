@@ -62,4 +62,10 @@ public class Soal {
         soal1.faktorial(5);
         soal1.faktorial(0);
     }
+    
+    @Test
+    public void testPerkalian(){
+        soal1.perkalian(0, 1);
+        soal1.perkalian(5, 2);
+    }
 }
