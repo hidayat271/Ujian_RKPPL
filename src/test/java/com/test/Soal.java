@@ -57,5 +57,9 @@ public class Soal {
         soal1.pangkat(0, 1);
     }
     
-    
+    @Test
+    public void tesFaktorial(){
+        soal1.faktorial(5);
+        soal1.faktorial(0);
+    }
 }
